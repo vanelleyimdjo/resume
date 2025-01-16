@@ -55,11 +55,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "/homeBook.png",
-    url: "#",
-    github: "https://github.com/vanelleyimdjo/Capstone_Project4_book_notes",
-    title: "Book collection",
-    text: "Development of a login and registration management website, allowing users to create and manage their accounts securely. The project integrates advanced features, such as data validation, session management and password reset. Designed with a modern interface and robust technologies like Ejs, Node.js, or PgAdmin, this site offers a fluid and secure user experience.",
+    img: "/dataScienceQuiz.png",
+    url: "https://quiz-datascience.netlify.app/",
+    github: "https://github.com/vanelleyimdjo/Quiz",
+    title: "Quiz Data Science",
+    text: "Creation of an interactive quiz of 10 questions on data science, designed to test and reinforce users' knowledge. The project integrates dynamic response management logic, real-time display of scores, and a responsive interface for smooth use on all devices. Built with typescript, react this quiz combines pedagogy and interactivity in an engaging experience.",
   },
   {
     id: nanoid(),
