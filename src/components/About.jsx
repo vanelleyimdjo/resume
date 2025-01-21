@@ -1,12 +1,23 @@
 import aboutSvg from "../assets/undraw_apps_i78y.svg";
 import { SectionTitle } from "./SectionTitle";
+import { motion } from "motion/react";
 
 export const About = () => {
   return (
     <section class=" py-20  mx-auto px-4 sm:max-w-7xl" id="about">
       <div class="align-element grid  md:grid-cols-2 items-center gap-16">
-        <img src={aboutSvg} className="w-full h-64" />
-        <article>
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+        >
+          <img src={aboutSvg} className="w-full h-64" />
+        </motion.div>
+        <motion.article
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.5 }}
+        >
           <div className="dark:text-[#FF7F0B]">
             <SectionTitle text="About me" />
           </div>
@@ -27,7 +38,7 @@ export const About = () => {
             and push the boundaries of what’s possible on the web. Let’s build
             something amazing together!
           </p>
-        </article>
+        </motion.article>
       </div>
     </section>
   );

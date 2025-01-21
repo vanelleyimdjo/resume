@@ -26,6 +26,42 @@ export const skills = [
     icon: "/icons/React.png",
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
+  {
+    id: nanoid(),
+    title: "Next",
+    icon: "/icons/nextjs-logo.png",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Mongo DB",
+    icon: "/icons/mongoDb.png",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "PG Admnin",
+    icon: "/icons/pgAdmin.png",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Material UI",
+    icon: "/icons/MaterialUi.webp",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Bootstrap",
+    icon: "/icons/Bootstrap.webp",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Redux",
+    icon: "/icons/Redux.webp",
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
 ];
 
 export const projects = [
@@ -33,7 +69,7 @@ export const projects = [
     id: nanoid(),
     img: "menu.png",
     url: "https://menu-restaurant-projects.netlify.app/",
-    github: "https://github.com/vanelleyimdjo",
+    github: "https://github.com/vanelleyimdjo/menu",
     title: "Menu restaurant",
     text: "Creation of a showcase site for a restaurant highlighting its menu, its specialties, and its unique atmosphere. The site is fully responsive, offering smooth navigation on all devices, and incorporates a dynamic system to update dishes and offers in real time. This project combines attractive design and optimized features to improve the user experience.",
   },
@@ -47,11 +83,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "/auth.png",
-    url: "#",
+    img: "/next_static_media.png",
+    url: "https://react-vite-comfy-store-v2.netlify.app/",
     github: "https://github.com/vanelleyimdjo",
-    title: "Authentication ",
-    text: "Design of a secure authentication and connection site with user management. The system integrates account creation, password recovery and email validation features for enhanced security. This project uses modern technologies like Ejs, Node.js, PgAdmin, or JWT to ensure optimal performance and user data protection.",
+    title: "E-commerce ",
+    text: "Design of a secure E-commerce. This project uses modern technologies like Next, Typescript, Framer motion, Node.js, PgAdmin, or JWT to ensure optimal performance and user data protection.",
   },
   {
     id: nanoid(),
@@ -73,7 +109,7 @@ export const projects = [
     id: nanoid(),
     img: "exploration.png",
     url: "https://6775d3cb8b0d2361a63b1dd7--backroadsproject-site.netlify.app/",
-    github: "https://github.com/vanelleyimdjo",
+    github: "https://github.com/vanelleyimdjo/backroads-project",
     title: "Backroads",
     text: "Development of a website for Backroads, a platform highlighting unique travel destinations and tourist circuits. The site offers an attractive and interactive user interface, integrating features such as destination search, itinerary presentation and customer reviews. Made with modern technologies such as React and REST API, this project offers an immersive and responsive experience suitable for all devices.",
   },
