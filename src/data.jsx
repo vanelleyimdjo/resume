@@ -67,6 +67,14 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: "joportal.png",
+    url: "https://jobfindr-vanelles-projects.vercel.app/",
+    github: "https://github.com/vanelleyimdjo/",
+    title: "Find Your Job",
+    text: "Development of a recruitment platform allowing employers to post job offers and candidates to apply for opportunities anywhere in the world. The site integrates an advanced filtering system, user profile management and secure connection for an optimized experience. Designed with modern technologies like  React, Node.js, typescript and MongoDB this project aims to facilitate the connection between recruiters and talents on an international scale.",
+  },
+  {
+    id: nanoid(),
     img: "menu.png",
     url: "https://menu-restaurant-projects.netlify.app/",
     github: "https://github.com/vanelleyimdjo/menu",
