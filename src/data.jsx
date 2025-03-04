@@ -75,6 +75,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: "fondation-gratitude.png",
+    url: "https://www.lafondationgratitude.org/",
+    github: "https://github.com/vanelleyimdjo/",
+    title: "Fondation Gratitude",
+    text: "Development of the website for Fondation Gratitude, an organization dedicated to helping and supporting children in need. The site highlights the foundation’s mission, humanitarian actions, and offers a space for donations and partnerships. Designed with a modern and intuitive interface, it enhances user engagement through smooth navigation and a clear presentation of charitable initiatives.",
+  },
+  {
+    id: nanoid(),
     img: "menu.png",
     url: "https://menu-restaurant-projects.netlify.app/",
     github: "https://github.com/vanelleyimdjo/menu",
